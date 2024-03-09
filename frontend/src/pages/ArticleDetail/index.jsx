@@ -65,7 +65,7 @@ function ArticleDetail () {
     const UserIdLocal = parseInt(localStorage.getItem("UserId"));
 
 
-    // Récupérer et afficher les informations sur l'article de la page
+    // Récupérer et afficher les informations sur la publication de la page
     useEffect(() => {
         async function fetchData() {
             const token = localStorage.getItem("Token");

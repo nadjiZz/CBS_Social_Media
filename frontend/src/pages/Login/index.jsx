@@ -33,8 +33,9 @@ const LoginForm = styled.form`
         width: 80%;
         height: 3.5rem;
         margin-bottom:2rem;
-        border: 1px solid ${colors.primary};
-        background-color: ${colors.with};
+        border: 1px solid ${colors.secondary};
+        background-color: ${colors.white
+        };
     }
 `
 
@@ -106,7 +107,7 @@ function Login () {
                         <BlueButton className="white-color">Se connecter</BlueButton>
                 </LoginForm>
                 <h2>Nouveau venu ?</h2>
-                <Link to="/auth/signup" className="primary-color">Inscrivez-vous <em>ici</em></Link>
+                <Link to="/auth/signup" className="secondary-color">Inscrivez-vous <em>ici</em></Link>
             </LoginBox>            
         </LoginContainer>
     )

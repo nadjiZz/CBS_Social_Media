@@ -2,14 +2,14 @@ import colors from '../../utils/style/colors';
 import styled from 'styled-components';
 
 const StyledArticleContainer = styled.div`
-    width: 29vw;
-    height: 250px;
+    width: vw;
+    padding:1rem;
     margin-bottom: 1rem;
     margin-right: 2vw;
     border-radius:10%;
     border: solid 1px ${colors.primary};
     background-color: ${colors.primary};
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -27,7 +27,6 @@ const StyledArticleContainer = styled.div`
 `
 const ArticleSummary = styled.div`
     font-size: 1.5rem;
-    height: 150px;
     border-radius:30px;
     color: ${colors.primary};
     padding: 1rem;

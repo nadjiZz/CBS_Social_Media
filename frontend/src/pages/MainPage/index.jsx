@@ -65,9 +65,9 @@ function MainPage () {
     return (
         <MainPageContainer>
             <MainPageTitles>
-                <h1>Les derniers articles ajoutés :</h1>
+                <h1>Les derniers publications ajoutés :</h1>
                 <Link to="/articles/new">
-                    <RedButton>Ajouter un article</RedButton>
+                    <RedButton>Ajouter une publication</RedButton>
                 </Link>                
             </MainPageTitles>
             <ArticlesContainer>                
